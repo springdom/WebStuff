@@ -1,0 +1,34 @@
+body {background-color:tan;}
+h1 {color:maroon;font-size:20pt;text-align:center;}
+table {
+  width:100%;
+  border:           thin solid black;
+  caption-side:     bottom;
+  border-collapse:  collapse;
+}
+
+table th {
+  background-color: blue;
+}
+
+td, th {
+  border:           thin dotted black;
+  padding:          7px;
+  text-align:center;
+}
+
+th {
+  background-color: #cc6600;
+  height: 50px;
+}
+
+
+tr:nth-child(odd){
+	 background-color: #00ff33;
+}
+
+
+caption {
+  font-style:       italic;
+  padding-top:      1px;
+}

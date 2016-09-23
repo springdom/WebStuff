@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    
+    <head>
+        <title>Practical 3.1 Forms</title>
+        <link type="text/css" rel="stylesheet" href="olympics.css">
+        <meta charset="UTF-8">
+    </head>
+    
+    <body>
+        <div id="container">
+            <h1>Summer Olympics</h1>
+            <form action='processo.php' method="POST">
+                <fieldset>
+                    <legend>Quiz Items</legend>How Many Countries are in the 2012 Olympics?:
+                    <input type='text' name='Number' size='35%'>
+                    <br>
+                    <legend>The first medal went to which sport</legend>
+                    <input type='radio' name='sport' value='Judo'>Judo
+                    <br>
+                    <input type='radio' name='sport' value='Shooting'>Shooting
+                    <br>
+                    <input type='radio' name='sport' value='Swimming'>Swimming
+                    <br>
+                    <input type='radio' name='sport' value='Weightlifting'>Weightlifting
+                    <br>
+                    <br>
+                    <legend>Which of these countries are
+                        <strong>not</strong>in the top 3 medal count.</legend>
+                    <input type="radio" name='flag' value='china'>
+                    <img src="china.gif" alt="flag of china" ;/>
+                    <input type="radio" name='flag' value='italy'>
+                    <img src="italy.gif" alt="flag of italy" ;/>
+                    <input type="radio" name='china' value='flag'>
+                    <img src="russia.gif" alt="flag of russia" ;/>
+                    <input type="radio" name='china' value='flag'>
+                    <img src="usa.gif" alt="flag of usa" ;/>
+                    <br>
+                    <br>
+                    <legend>Where were the last four Olympic games played</legend>
+                    <br>
+                    <input type='checkbox' name='place[]' value='Atlanta'>Atlanta
+                    <br>
+                    <input type='checkbox' name='place[]' value='Athens'>Athens
+                    <br>
+                    <input type='checkbox' name='place[]' value='Barcelona'>Barcelona
+                    <br>
+                    <input type='checkbox' name='place[]' value='Beijing'>Beijing
+                    <br>
+                    <input type='checkbox' name='place[]' value='Sydney'>Sydney
+                    <br>
+                    <br>
+                    <legend>Which game is no longer in the Olympics?</legend>
+                    <br>
+                    <select name='Sport'>
+                        <option value='noSelection'>Please Select a Sport:</option>
+                        <option value='Baseball'>Baseball</option>
+                        <option value='Beach Volleyball'>Beach Volleyball</option>
+                        <option value='BMX'>BMX</option>
+                        <option value='hand ball'>Hand Ball</option>
+                    </select>
+                    <br>
+                </fieldset>
+                <input type='submit' name='submitted' value='Submit the Data'>
+            </form>
+            
+        </div>
+    </body>
+
+</html>

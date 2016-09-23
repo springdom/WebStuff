@@ -1,0 +1,32 @@
+body {background-color:tan;} 
+
+tables {
+	border-spacing: 0;
+}
+.wrap {
+
+		/*replace 900px with your width*/
+		width:900px;
+}
+
+#header, #footer{
+		 width:100%;
+		 float:left;
+		 padding:15px 0;
+}
+#header {
+	background:#264BA0;
+}
+#links {
+		 width:100%;
+		 float:left;
+		 padding:5px 0;
+}
+#content {
+		padding:15px 0;
+		clear:both;
+}
+a:link {color:#FF0000;}      /* unvisited link */
+a:visited {color:#FF0000;}  /* visited link */
+a:hover {color:#0C00FF;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */ 

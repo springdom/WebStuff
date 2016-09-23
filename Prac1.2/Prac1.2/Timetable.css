@@ -1,0 +1,63 @@
+body {background-color:tan;}
+h1 {color:maroon;font-size:20pt;text-align:center;}
+.wrap {
+		position:relative;
+		/*replace 900px with your width*/
+		width:900px;
+}
+
+table.table2 {
+  width:100%;
+  border:           solid black;
+  caption-side:     bottom;
+  border-collapse:  collapse;
+}
+
+table.table2 th {background-color: blue;}
+
+table.table1 th {
+  border:none;
+}
+table.table2 td, th {
+  border:thin solid black;
+  padding:7px;
+  text-align:center;
+}
+
+table.table2 th {
+  background-color: #cc6600;
+  height: 50px;
+}
+
+
+table.table2 tr:nth-child(odd){
+	 background-color: #00ff33;
+}
+
+
+caption {
+  font-style:       italic;
+  padding-top:      1px;
+}
+#header, #footer{
+		 width:100%;
+		 float:left;
+		 padding:15px 0;
+}
+#header {
+	background:#264BA0;
+}
+#links {
+		 width:100%;
+		 float:left;
+		 padding:15px 0;
+}
+#timetable {
+		 width:100%;
+		 float:left;
+		 padding:15px 0;
+}
+a:link {color:#FF0000;}      /* unvisited link */
+a:visited {color:#FF0000;}  /* visited link */
+a:hover {color:#0C00FF;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */ 

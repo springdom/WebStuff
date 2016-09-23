@@ -1,0 +1,43 @@
+body {background-color:tan;}
+
+h1 {color:maroon;font-size:20pt;text-align:center;}
+.wrap {
+		position:relative;
+		/*replace 900px with your width*/
+		width:900px;
+}
+table.table1{
+	float: left;
+}
+table.table2{
+	
+	  width:100%;
+	  border:           solid black;
+      border-collapse:  collapse;
+	  text-align: center;
+	  float: left;
+
+}
+table.table2 td, th {
+  border:none;
+  padding:7px;
+}
+
+table.table2 tr:nth-child(even){
+	 background-color: #2C28EF;
+}
+table.table2 tr:nth-child(odd){
+	 background-color: #F71B1B;
+	 }
+#header, #footer{
+		 width:100%;
+		 float:left;
+		 padding:15px 0;
+}
+#header {
+	background:#264BA0;
+}
+a:link {color:#FF0000;}      /* unvisited link */
+a:visited {color:#FF0000;}  /* visited link */
+a:hover {color:#0C00FF;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */ 

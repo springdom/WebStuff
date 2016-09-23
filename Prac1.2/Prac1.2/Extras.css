@@ -1,0 +1,35 @@
+a:link {color:#FF0000;}      /* unvisited link */
+a:visited {color:#00FF00;}  /* visited link */
+a:hover {color:#FF00FF;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */ 
+
+body {background-color:tan;} 
+    }
+tables {
+	border-collapse:seperate;
+	border-spacing: 0;
+}
+.wrap {
+		position:relative;
+		margin:0 auto;
+		/*replace 900px with your width*/
+		width:900px;
+}
+
+#header, #footer{
+		 width:100%;
+		 float:left;
+		 padding:15px 0;
+}
+#header {
+	background:#264BA0;
+}
+#links {
+		 width:100%;
+		 float:left;
+		 padding:15px 0;
+}
+a:link {color:#FF0000;}      /* unvisited link */
+a:visited {color:#FF0000;}  /* visited link */
+a:hover {color:#0C00FF;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */ 
